@@ -12,7 +12,8 @@ class App extends Component {
             <a className="github" href="https://github.com/flyliu0723"></a>
             <a className="blog" href="https://flyliu0723.github.io/flyblog/"></a>
           </div>
-          <img className="logo" src={require('./images/logo2.png')} alt=""/>
+          <div className="logo"><img src={require('./images/logo2.png')} alt=""/></div>
+          
           <div className="down">
             <button>DOWNLOAD</button>
           </div>
