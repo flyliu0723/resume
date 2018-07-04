@@ -21,3 +21,5 @@ yarn-debug.log*
 yarn-error.log*
 
 /.vscode
+yarn.lock
+package-lock.json

@@ -21,8 +21,32 @@ class App extends Component {
         <div className="header-img">
           <img src="https://avatars2.githubusercontent.com/u/15263326?s=460&v=4" alt=""/>
         </div>
+
+        <div className="menus">
+          <span className="active">About</span>
+          <span>Projects</span>
+          <span>Education</span>
+          <span>Blog</span>
+        </div>
+        <div id="about" className="message">
+          <div className="intro">
+            Hello! my name if fly, i am 24 years old,My job is a front-end engineer.
+            welcome to my resume web.
+            <br/>
+            Here, you will have an in-depth understanding of me.
+            <br/>
+            You can learn about my education experience and project experience here.
+          </div>
+          <div className="devider"></div>
+          <div className="technology">
+            <div className="container">
+              <span className="title">My Skills & Abilities</span>
+            </div>
+            
+          </div>
+        </div>
       </div>
-    );
+    )
   }
 }
 
